@@ -13,7 +13,7 @@ For small tensors, you can directly convert them into the TT-format by an SVD-ba
 
 What do people do with this *Tensor Train* format?
 --------------------------------------------------
-In machine learning, TT-format is used for compressing neural network layers (`fully-connected`_, convolutional_, recurrent_), speeding up `training of Gaussian processes`_, theoretical analysis of expressive power of Recurrent Neural Networks (one_ and two_), `reinforcement learning`_, etc. See an `overview paper`_ for more information.
+In machine learning, TT-format is used for compressing neural network layers (`fully-connected`_, convolutional_, recurrent_), speeding up `training of Gaussian processes`_, theoretical analysis of expressive power of Recurrent Neural Networks (one_ and two_), `high-dimensional nonlinear control`_, etc. See an `overview paper`_ for more information.
 
 TT-format is also known in physics community under the name of Matrix Product State (MPS) and is extensively used.
 
@@ -29,7 +29,7 @@ TT-format is also known in physics community under the name of Matrix Product St
 
 .. _two: https://openreview.net/forum?id=r1gNni0qtm
 
-.. _reinforcement learning: https://arxiv.org/abs/1611.04706
+.. _high-dimensional nonlinear control: http://www.roboticsproceedings.org/rss11/p15.html
 
 .. _overview paper: https://arxiv.org/abs/1609.00893
 
